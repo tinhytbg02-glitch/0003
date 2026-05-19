@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/20200/RST/RST_Controller2.asp",
-      "destination": "/index.html"
+      "source": "https://0003w.vercel.app/20200/RST/RST_Controller2.asp",
+      "destination": "https://0003w.vercel.app/"
     }
   ]
 }
