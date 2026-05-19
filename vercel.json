@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/20200/RST/RST_Controller2.asp",
+      "destination": "/index.html"
+    }
+  ]
+}
