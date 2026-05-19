@@ -235,10 +235,23 @@
         <img src="chuthich1.png" class="img-3">
         <img src="chuthich2.png" class="img-3">
     </div>
+    <form name="frm" method="post" action="/20200/RST/RST_Controller2.asp">
+<input type="hidden" name="part" value="info">
+
+<input type="hidden" name="p" value="B878672AD8C6CEBC5E31DD302B6B52D5BFB734F44C00EBA7D1E6525E9E12871F">
+
+<input type="hidden" name="lang" value="">
+</form>
+
+
 
 </body>
 
 <script>
+    function setLang(val)
+{
+	location.replace('/20200/RST/RST_Controller2.asp?part=main&p=B878672AD8C6CEBC5E31DD302B6B52D5BFB734F44C00EBA7D1E6525E9E12871F&lang='+val);
+}
     function savePDF() {
         const btn = document.querySelector(".pdf");
         btn.style.visibility = "hidden";
